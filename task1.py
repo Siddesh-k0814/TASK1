@@ -6,8 +6,8 @@ def hangman():
  
  
     word = random.choice(word_list) 
-    word_letters = set(word)  # Unique letters in the word 
-    guessed_letters = set()  # Letters the player has guessed 
+    word_letters = set(word)  
+    guessed_letters = set()   
     incorrect_guesses = 0 
     max_incorrect = 6 
  
